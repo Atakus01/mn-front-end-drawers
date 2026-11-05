@@ -1,0 +1,35 @@
+# Local research abstract (retain other PDFs, such as future documentation)
+/Abstract #07003.pdf
+
+# Windows metadata and temporary files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*:Zone.Identifier
+
+# macOS metadata
+.DS_Store
+._*
+
+# Editor and application temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# KiCad machine-local settings, caches, lock files, and recovery files
+*.kicad_prl
+fp-info-cache
+fp-lib-table-rescue
+*.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+_autosave-*
+~_autosave-*
+*-backups/
