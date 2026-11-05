@@ -89,12 +89,12 @@ The drawers, shielding enclosures, and common housing use the following material
 | Material / component | Specification or part number | Manufacturer / supplier |
 | --- | --- | --- |
 | Printing filament | 1.75 mm PLA+ | ELEGOO |
-| Internal shielding | Copper tape | Not specified |
+| Internal shielding | Copper tape | N/A |
 | Internal RF cable | RG-58 A/U | Belden |
 | External transmit connector | `132170` | Amphenol RF |
 | External receive connector | `142-0701-551` | Mouser Electronics (supplier) |
 | External DC-bias connector | `142250` | Amphenol RF |
-| Coil-facing cable glands | Two PG7 glands for the 0° and 90° quadrature connections | Not specified |
+| Coil-facing cable glands | Two PG7 glands for the 0° and 90° quadrature connections | N/A |
 
 The mechanical parts were fabricated using a Bambu Lab P1S printer. This materials list does not include an independently verified purchasing BOM for the preamplifier mounting board.
 
@@ -111,6 +111,3 @@ The preamplifiers are commercial components; the repository includes their enclo
 
 The T/R switch design is adapted from B. Thapa et al., *Design and Development of a General-Purpose Transmit/Receive (T/R) Switch for 3T MRI, Compatible for a Linear, Quadrature and Double-Tuned RF Coil* (2016), and the quadrature hybrid design as adapted from *NMR Probeheads for Biophysical and Biomedical Experiments*.
 
-## Version-control housekeeping
-
-The `.gitignore` excludes the local reference PDF, Windows and macOS metadata, editor temporary files, SolidWorks temporary lock files, and KiCad local settings, caches, autosaves, and backup directories. Editable design sources and STL/3MF exports are retained.
